@@ -1,0 +1,27 @@
+it helps us create nice looking, responsive, modern websites.
+it provides us the framework or starting point for all sorts of diff. websites.
+consists of two main things ->
+1. collection of pre-built COMPONENTS that we can incorporate into our own webistes.
+2. GRID SYSTEM which helps us construct our own custom, responsive layouts.
+Bootstrap comes with some javascript too but the core / most imp. piece is a single stylesheet.
+How to include bootstrap :-
+a. download everything and link it.
+b. use CDN(Content Delivery Network) - hosted verson of a stylesheet that we can access remotely. copy CDN and paste it in head before 
+your custom style sheet. This way I can write my own css and it has a better chance of not being overwritten by bootstrap.
+Certain components require js so it's necessary to include the js links.
+For grid system we need to work in a container.
+WE then need to create rows using class="rows"
+All theses Aria prefixed labels have to do with accessibility and screen readers.
+A row is generally a div but can be section or something else. It doesn't really represent anything itself. It's just there to help spread out or structure the content or lay it out.
+Responsive Bootstrap Grids are used to create responsive layout and shift content around based upon the screen size. It hinges upon the built-in break points in bootstrap.
+Bootstrap is built on top of flexbox and thus, uses similar/same terminology.
+When we use class = "row" it automatically sets display as flex.
+In a form changing border, size, color etc of a checkbox is difficult compared to a regular input like text, password. So, we use the browser's checkbox along with the class="form-check". It sets the spacing slight differently OR we use the bootstrap checkbox. 
+Similarly, we can get customizations for radio buttons, switches(built on top of a checkbox), selects, multi-selects, range input etc.
+Collapse plugin is a part of bootstrap we can use to collapse things and show, hide them like creating an accordion, show or hide content to collapse the navbar / drawer.
+It's necessary to have boostrap js while using collapsible navbar.
+In navbars I can create custom color schemes, set background color on navbar, place them differently.
+We can add a container inside our navbar and our data inside container will be constrained.
+Bootstrap icons are free to use. Headovder to the website and copy the link to use them. The link has an HTML element SVG(Scalale Vector Graphics) which are used to build modern, artistic, cool-looking websites, animations, games etc. 
+HOW SVG's WORK ? the information(link) describes the actual path that we see in form of visual. The info describes the shape(paths at play here). They are scalable, change color similar to a letter / font. 
+There are other icon libraries like FontAwesome
